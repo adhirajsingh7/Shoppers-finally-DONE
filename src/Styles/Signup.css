@@ -1,0 +1,33 @@
+.errors {
+    color: red;
+}
+
+.signup-main-container {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+
+.signup-sub-1 {
+    width: 50%;
+    background-image: url('../assets/SignupImage.jpg');
+    background-size: cover;
+}
+
+.signup-sub-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    flex-direction: column;
+}
+
+.signup-sub-2 > div {
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+  }
+
+.textfield {
+    width: 100%;
+}

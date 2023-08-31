@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body::-webkit-scrollbar{
+    display: none;
+}
+
+.main-container {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+
+.sub-1 {
+    width: 50%;
+    background-image: url('../assets/wooden-image.jpg');
+    background-size: cover;
+}
+
+.sub-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    flex-direction: column;
+}
+
+.sub-2 > div {
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+  }
